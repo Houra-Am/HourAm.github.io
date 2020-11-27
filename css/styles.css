@@ -1,0 +1,117 @@
+/*
+background-color: #0475ba
+*/
+
+body {
+    margin: 0px;
+}
+
+.primary-block {
+    background-color: #0475ba;
+    color: aliceblue;
+}
+
+.primary-block a:link,
+.primary-block a:visited {
+    color: white;
+}
+
+.primary-block a:hover {
+    color: lavender;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.secondary-block h3,
+.secondary-block h2 {
+    color: #0475ba;
+}
+
+nav {
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 32px;
+}
+
+nav li {
+    list-style: none;
+}
+
+#menu {
+    display: none;
+}
+
+header,
+section,
+footer {
+    padding: 40px;
+}
+
+
+/*
+Heading style
+*/
+
+header {
+    text-align: center;
+}
+
+header h2 {
+    padding: 16px;
+}
+
+header img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+
+/*
+Experience section style
+*/
+
+section h3 {
+    text-align: center;
+}
+
+.experience-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*
+Education section style
+*/
+
+.list-without-bulletpoint {
+    list-style: none;
+}
+
+#education-list ul {
+    display: flex;
+}
+
+
+/*
+Footer section style
+*/
+
+i {
+    margin-right: 8px;
+}
+
+@media (min-width: 768px) {
+    #menu {
+        display: block;
+    }
+    #menu ul {
+        display: flex;
+    }
+    #menu ul li {
+        margin: 0px 8px;
+    }
+}
